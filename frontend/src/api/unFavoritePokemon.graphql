@@ -1,0 +1,6 @@
+mutation favoritePokemon($id: ID!) {
+    favoritePokemon(id: $id) {
+        id
+        isFavorite
+    }
+}

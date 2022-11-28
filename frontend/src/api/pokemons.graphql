@@ -1,0 +1,16 @@
+query getPokemons($query: PokemonsQueryInput!) {
+    pokemons(query: $query) {
+        limit
+        offset
+        count
+        edges {
+            id
+            number
+            name
+            classification
+            types
+            image
+            isFavorite
+        }
+    }
+}
