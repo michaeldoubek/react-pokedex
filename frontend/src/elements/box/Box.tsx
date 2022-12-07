@@ -2,10 +2,7 @@ import {ReactNode} from 'react';
 import theme, {Color, Elevation, Size} from '../theme';
 import {css} from '@emotion/css';
 
-type BoxProps = {
-  children: ReactNode;
-  flex?: 1 | 2 | 3 | 4 | 5 | 6;
-  color?: Color;
+type BoxProps = { children: ReactNode; flex?: 1 | 2 | 3 | 4 | 5 | 6; color?: Color;
   backgroundColor?: Color;
   padding?: Size;
   elevation?: Elevation;
